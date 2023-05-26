@@ -7,5 +7,7 @@
 body {
   margin: 0;
   font-family: 'GT Walsheim Medium';
+  /* font-family: 'GTWalsheimPro-Medium'; */
+  -webkit-font-smoothing: antialiased;
   background-color: #DAE4CF;
 }
