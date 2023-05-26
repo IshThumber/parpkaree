@@ -1,6 +1,8 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const MemberAndVolunteer = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="mx-auto sm:max-w-screen-xl md:max-w-screen-xl lg:max-w-screen-xl p-8 sm:p-8 md:px-24 md:py-10 lg:px-8 lg:py-20 lg:pb-0 md:pb-0 ">
@@ -17,7 +19,12 @@ const MemberAndVolunteer = () => {
                 more than 100 members who just wish to spread happiness & love.
                 Together we are strong to bring the change in the society.
               </p>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal px-6 py-2 rounded-full w-fit mx-auto">
+              <button
+                className="bg-blue-500 hover:bg-blue-700 text-white font-normal px-6 py-2 rounded-full w-fit mx-auto"
+                onClick={() => {
+                  navigate("/member");
+                }}
+              >
                 Join Us
               </button>
             </div>
@@ -40,7 +47,12 @@ const MemberAndVolunteer = () => {
                 towards the betterment of the society & environment, but also
                 undergo a transformational journey for yourselves.
               </p>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal px-6 py-2 rounded-full w-fit mx-auto">
+              <button
+                className="bg-blue-500 hover:bg-blue-700 text-white font-normal px-6 py-2 rounded-full w-fit mx-auto"
+                onClick={() => {
+                  navigate("/volunteer");
+                }}
+              >
                 Become Volunteer
               </button>
             </div>
