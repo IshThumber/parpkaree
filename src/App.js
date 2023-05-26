@@ -30,7 +30,6 @@ const App = () => {
         <Route path="/member" element={<h1>Membership</h1>} />
         <Route path="/volunteer" element={<h1>Volunteer</h1>} />
         <Route path="/contact-us" element={<h1>Contact Us</h1>} />
-
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </BrowserRouter>

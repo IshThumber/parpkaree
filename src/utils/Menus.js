@@ -23,7 +23,7 @@
 //           to={items.url}
 //           aria-label={items.title}
 //           title={items.title}
-//           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+//            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
 //         >
 //           {items.title}
 //         </Link>

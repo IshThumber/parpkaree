@@ -15,7 +15,29 @@ module.exports = withMT({
       }
     },
     fontFamily: {
-      sans: ["Playfair", "serif"]
+      sans: ["Playfair", "serif"],
+      serif: ["GT Walsheim medium", "sans-serif"],
+      light: ["GT Walsheim light", "sans-serif"]
+    },
+    fontWeight: {
+      normal: 400,
+      medium: 500,
+      bold: 700,
+      light: 300,
+      semibold: 600,
+      extrabold: 800,
+      black: 900
+    },
+    colors: {
+      primary: "#DAE4CF",
+      secondary: "#DBA25D",
+      ternary: {
+        main: "#4F9284",
+        light: "#CAE2DD",
+        dark: "#2B5048"
+      },
+      quaternary: "#1C3337",
+      fifth: "#8D3D2F"
     }
   },
   plugins: [require("flowbite/plugin")]

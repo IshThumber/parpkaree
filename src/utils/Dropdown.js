@@ -8,7 +8,7 @@
 //             to={submenu.url}
 //             aria-label={submenu.title}
 //             title={submenu.title}
-//             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+//              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
 //           >
 //             {submenu.title}
 //           </Link>
