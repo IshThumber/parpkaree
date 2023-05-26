@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarTop from "../components/Navbar";
 import Footer from "../components/Footer";
+import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
@@ -73,6 +74,17 @@ const ContactUs = () => {
                     <h2 className="font-bold text-xl mb-3">
                       <span className="text-gray-800">Social Media</span>
                     </h2>
+                    <div className="text-gray-600 flex flex-row gap-4">
+                      <span className="p-2 rounded-full bg-gray-600">
+                        <FaFacebook className="text-xl text-white" />
+                      </span>
+                      <span className="p-2 rounded-full bg-gray-600">
+                        <FaInstagram className="text-xl text-white" />
+                      </span>
+                      <span className="p-2 rounded-full bg-gray-600">
+                        <FaYoutube className="text-xl text-white" />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
