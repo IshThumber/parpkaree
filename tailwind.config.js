@@ -18,7 +18,7 @@ module.exports = withMT({
       sans: ["Playfair", "serif"],
       // serif: ["GTWalsheimPro", "sans-serif"],
       serif: ["GT Walsheim Medium", "serif"],
-      light: ["GTWalsheimPro-Light", "sans-serif"]
+      light: ["GT Walsheim Light", "sans-serif"]
     },
     fontWeight: {
       normal: 400,

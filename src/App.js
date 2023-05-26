@@ -1,19 +1,14 @@
 import React from "react";
-// import Navbar from "./components/Navbar";
-// import WelcomeNote from "./components/WelcomeNote";
-// import Hero from "./components/Hero";
-// import AboutUs from "./components/AboutUs";
-// import Projects from "./components/Projects";
-// import MemberAndVolunteer from "./components/MemberAndVolunteer";
-// import Gallery from "./components/Gallery";
-// import SocialMedia from "./components/SocialMedia";
-// import Footer from "./components/Footer";
 import Main from "./Main";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MissionNVision from "./Pages/MissionNVision";
 import Projects from "./Pages/Projects";
 import CoreTeam from "./Pages/CoreTeam";
 import Help from "./Pages/Help";
+import Donate from "./Pages/Donate";
+import Member from "./Pages/Member";
+import Volunteer from "./Pages/Volunteer";
+import ContactUs from "./Pages/ContactUs";
 
 const App = () => {
   return (
@@ -26,10 +21,10 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/core-team" element={<CoreTeam />} />
         <Route path="/help" element={<Help />} />
-        <Route path="/donate" element={<h1>Donate</h1>} />
-        <Route path="/member" element={<h1>Membership</h1>} />
-        <Route path="/volunteer" element={<h1>Volunteer</h1>} />
-        <Route path="/contact-us" element={<h1>Contact Us</h1>} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/member" element={<Member />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </BrowserRouter>
