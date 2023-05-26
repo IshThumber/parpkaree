@@ -4,6 +4,18 @@
 @import url(//db.onlinewebfonts.com/c/d09523bf42fc76f52b44ac8b58415ae3?family=GT+Walsheim+Medium);
 @import url(//db.onlinewebfonts.com/c/6d7bf85888fc8ef4357e0a27a0db8ce6?family=GT+Walsheim+Light);
 
+@font-face {
+  font-family: "GT Walsheim Light";
+  src: url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.eot");
+  src: url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.woff") format("woff"), url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.svg#GT Walsheim Light") format("svg");
+}
+
+@font-face {
+  font-family: "GT Walsheim Medium";
+  src: url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.eot");
+  src: url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.woff") format("woff"), url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d09523bf42fc76f52b44ac8b58415ae3.svg#GT Walsheim Medium") format("svg");
+}
+
 body {
   margin: 0;
   font-family: 'GT Walsheim Medium';
