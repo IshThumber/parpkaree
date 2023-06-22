@@ -11,7 +11,8 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('https://paropakaareefoundation.org/wp-content/uploads/2023/02/children-outside-1.jpg')"
+        hero: "url('https://paropakaareefoundation.org/wp-content/uploads/2023/02/children-outside-1.jpg')",
+        pattern: "url(src/assets/images/pattern.svg)",
       }
     },
     fontFamily: {
@@ -30,15 +31,18 @@ module.exports = withMT({
       black: 900
     },
     colors: {
-      primary: "#DAE4CF",
-      secondary: "#DBA25D",
+      primary: "#E4FFEF",
+      secondary: "#25D0BC",
       ternary: {
         main: "#4F9284",
         light: "#CAE2DD",
         dark: "#2B5048"
       },
       quaternary: "#1C3337",
-      fifth: "#8D3D2F"
+      fifth: "#8D3D2F",
+
+      "btn-primary": "#2C2C54",
+      "btn-primary-hover": "#4D4D93"
     }
   },
   plugins: [require("flowbite/plugin")]

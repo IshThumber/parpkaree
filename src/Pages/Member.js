@@ -3,6 +3,7 @@ import NavbarTop from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const Member = () => {
+  
   return (
     <>
       <div className="bg-primary">

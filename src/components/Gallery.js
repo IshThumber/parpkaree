@@ -1,5 +1,5 @@
 import React from "react";
-import { gallery } from "../utils/galleryMenu";
+import { gallery } from "../utils/imagesMenu";
 
 const Gallery = () => {
   return (
@@ -16,7 +16,9 @@ const Gallery = () => {
                   <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                     <img
                       className="object-cover w-full rounded-md"
-                      src={item.img}
+                      src={require("../assets/images/gallery" +
+                        item.id +
+                        ".png")}
                       alt=""
                     />
                   </div>

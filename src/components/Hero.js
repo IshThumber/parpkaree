@@ -43,7 +43,7 @@ const Hero = () => {
                   </span>
                 </p>
                 <button
-                  className="relative bg-blue-500 hover:bg-blue-700 text-white font-normal px-6 py-2 rounded-full"
+                  className="relative bg-btn-primary-hover hover:bg-btn-primary text-white font-normal px-8 py-2 rounded-full"
                   onClick={() => {
                     navigate("/donate");
                   }}
