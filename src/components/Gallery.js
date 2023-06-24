@@ -8,7 +8,7 @@ const Gallery = () => {
         <div className="mx-auto sm:text-center">
           <div className="mb-10 md:mx-auto sm:text-center md:mb-12 ">
             <h1 className="max-w-lg mb-6 font-serif text-3xl font-bold leading-none mx-auto text-center mt-6 tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-              Our Projects
+              Gallery
             </h1>
             <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4 py-8">
               {gallery.map((item) => (

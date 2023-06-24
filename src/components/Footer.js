@@ -3,6 +3,14 @@ import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
+
   return (
     // <div className="mx-auto max-w-screen-xl p-8 sm:p-8 md:px-24 md:py-10 lg:px-8 lg:py-20 lg:pb-0 md:pb-0 bg-fifth">
     <div className="w-full pt-5 text-white bg-fifth">
@@ -10,7 +18,7 @@ const Footer = () => {
         <div className="grid gap-7 lg:gap-16 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 xl:gap-16">
           <div className="sm:col-span-2">
             <Link
-              to="/"
+              onClick={goToTop}
               aria-label="Go home"
               title="Company"
               className="inline-flex items-center"
@@ -31,16 +39,25 @@ const Footer = () => {
                 House no. 22/634, Ground Floor. Lane-22, Madangir DDA Flats,
                 South Delhi-11062, India
               </p>
-              <p className="mt-4 text-sm text-gray-200">
-                +(91) 9654035922
-                <br />
-                Support@paropakaarefoundation.org
-              </p>
-              <p className="mt-4 text-md text-gray-200">Contact Us</p>
-              <div className="flex items-center mt-1 space-x-7">
-                <FaFacebook />
-                <FaYoutube />
-                <FaInstagram />
+              <p className="mt-6 text-md text-gray-200">Contact Us</p>
+              <div className="mt-1">
+                <p className="text-sm text-gray-200">
+                  +(91) 9654035922
+                  <br />
+                  Support@paropakaarefoundation.org
+                </p>
+              </div>
+              <p className="mt-6 text-md text-gray-200">Connect Us</p>
+              <div className="flex items-center mt-2 gap-4">
+                <div className="bg-ternary-dark p-2 rounded-full">
+                  <FaFacebook className="text-primary text-xl" />
+                </div>
+                <div className="bg-ternary-dark p-2 rounded-full">
+                  <FaInstagram className="text-primary text-xl" />
+                </div>
+                <div className="bg-ternary-dark p-2 rounded-full">
+                  <FaYoutube className="text-primary text-xl" />
+                </div>
               </div>
             </div>
           </div>
@@ -81,7 +98,15 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-gray-400">
-            © Copyright 2023 paropakaareefoundation.org All rights reserved
+            © Copyright 2023{" "}
+            <Link
+              to="/"
+              className="underline text-ternary-main"
+              onClick={goToTop}
+            >
+              paropakaareefoundation.org
+            </Link>{" "}
+            All rights reserved
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>

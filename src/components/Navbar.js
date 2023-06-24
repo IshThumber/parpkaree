@@ -9,7 +9,8 @@ import {
   Menu,
   MenuHandler,
   MenuList,
-  MenuItem
+  MenuItem,
+  Button
 } from "@material-tailwind/react";
 import { Link, useNavigate } from "react-router-dom";
 import {
@@ -17,6 +18,8 @@ import {
   Bars3Icon,
   XMarkIcon
 } from "@heroicons/react/24/outline";
+import logo from "../assets/images/logo.png";
+import Toggle from "../utils/Toggle";
 
 const navListMenuItems1 = [
   {
@@ -258,7 +261,7 @@ function NavList() {
         color="blue-gray"
         className="font-normal font-serif"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4 text-gray-800">
+        <ListItem className="flex items-center gap-1 py-2 pr-4 text-gray-800">
           Home
         </ListItem>
       </Typography>
@@ -270,7 +273,7 @@ function NavList() {
         color="blue-gray"
         className="font-normal font-serif"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4 text-gray-800">
+        <ListItem className="flex items-center gap-1 py-2 pr-4 text-gray-800">
           Projects
         </ListItem>
       </Typography>
@@ -283,8 +286,17 @@ function NavList() {
         color="blue-gray"
         className="font-normal font-serif"
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4 text-gray-800">
+        <ListItem className="flex items-center gap-1 py-2 pr-4 text-gray-800">
           Contact Us
+        </ListItem>
+      </Typography>
+      <Typography
+        variant="medium"
+        color="blue-gray"
+        className="font-normal font-serif"
+      >
+        <ListItem className="flex items-center gap-1 py-2 pr-4 text-gray-800">
+          <Toggle />
         </ListItem>
       </Typography>
     </List>
@@ -311,11 +323,7 @@ const NavbarTop = () => {
             navigate("/");
           }}
         >
-          <img
-            className="h-12 w-12"
-            src="https://paropakaareefoundation.org/wp-content/uploads/2023/02/cropped-cropped-cropped-paropkari_foundation-removebg-preview.png"
-            alt="logo"
-          />
+          <img className="h-12 w-12" src={logo} alt="logo" />
           <Typography
             as="a"
             href="/"

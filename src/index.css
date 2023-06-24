@@ -4,6 +4,32 @@
 @import url(//db.onlinewebfonts.com/c/d09523bf42fc76f52b44ac8b58415ae3?family=GT+Walsheim+Medium);
 @import url(//db.onlinewebfonts.com/c/6d7bf85888fc8ef4357e0a27a0db8ce6?family=GT+Walsheim+Light);
 
+:root {
+  --primary: #E4FFEF;
+  --secondary: #2C2C54;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 2px solid var(--primary);
+}
+
+
 @font-face {
   font-family: "GT Walsheim Light";
   src: url("//db.onlinewebfonts.com/t/6d7bf85888fc8ef4357e0a27a0db8ce6.eot");

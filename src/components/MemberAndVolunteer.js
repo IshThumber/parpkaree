@@ -17,7 +17,7 @@ const MemberAndVolunteer = () => {
           </div>
           <div className="flex-wrap justify-center">
             <div className="w-full p-4 gap-6 align-middle sm:grid sm:grid-cols-4 flex flex-col items-center">
-              <p className="text-left text-gray-700 md:text-lg col-span-3">
+              <p className="text-left text-gray-700 md:text-lg col-span-3 pl-5">
                 Paropakaaree Foundation welcomes new members. We currently have
                 more than 100 members who just wish to spread happiness & love.
                 Together we are strong to bring the change in the society.
@@ -53,7 +53,7 @@ const MemberAndVolunteer = () => {
           </div>
           <div className="flex-wrap justify-center">
             <div className="w-full p-4 gap-6 align-middle sm:grid sm:grid-cols-4 flex flex-col items-center">
-              <p className="text-left text-gray-700 md:text-lg col-span-3">
+              <p className="text-left text-gray-700 md:text-lg col-span-3 pl-5">
                 Paropakaaree Foundation offers a diverse range of volunteering
                 opportunities. Through these, you can not only contribute
                 towards the betterment of the society & environment, but also

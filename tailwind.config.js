@@ -12,7 +12,7 @@ module.exports = withMT({
     extend: {
       backgroundImage: {
         hero: "url('https://paropakaareefoundation.org/wp-content/uploads/2023/02/children-outside-1.jpg')",
-        pattern: "url(src/assets/images/pattern.svg)",
+        pattern: "url()",
       }
     },
     fontFamily: {
