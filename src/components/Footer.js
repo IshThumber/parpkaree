@@ -9,8 +9,6 @@ const Footer = () => {
       behavior: "smooth"
     });
   };
-
-
   return (
     // <div className="mx-auto max-w-screen-xl p-8 sm:p-8 md:px-24 md:py-10 lg:px-8 lg:py-20 lg:pb-0 md:pb-0 bg-fifth">
     <div className="w-full pt-5 text-white bg-fifth">
